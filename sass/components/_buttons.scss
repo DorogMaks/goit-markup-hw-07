@@ -1,0 +1,29 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 200px;
+  min-height: 50px;
+  border-radius: 4px;
+  border: none;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: getColor('btn-text');
+  background-color: getColor('accent');
+
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: $time-function;
+
+  &:hover,
+  &:focus {
+    background-color: getColor('bg-accent');
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
