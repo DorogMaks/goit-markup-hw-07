@@ -57,10 +57,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .section__title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -123,7 +119,7 @@ img {
 .navigation__list {
   display: flex;
 }
-.navigation__item + .navigation__item {
+.navigation__list .navigation__item + .navigation__item {
   margin-left: 50px;
 }
 .navigation__item {
@@ -198,6 +194,10 @@ img {
 
 /*---------- hero ----------*/
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -240,10 +240,10 @@ img {
 .features__list {
   display: flex;
 }
-.features__item {
+.features-item {
   width: 270px;
 }
-.features__item:not(:last-child) {
+.features-item:not(:last-child) {
   margin-right: 30px;
 }
 .features__icon-container {
@@ -539,7 +539,7 @@ img {
   opacity: 0;
   pointer-events: none;
 }
-.is-hidden .modal {
+.backdrop.is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.8);
 }
 .modal {
@@ -675,7 +675,7 @@ img {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.checkbox {
+.form__checkbox {
   align-items: center;
   margin-bottom: 30px;
 }
