@@ -10,33 +10,15 @@
 
 .adress {
   margin-top: 20px;
-  font-style: normal;
 }
 .address__item + .address__item {
   margin-top: 9px;
 }
-.address__link,
-.address__mail,
-.address__tel {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: getColor('secondary-light');
-}
-.address__link {
-  color: getColor('primary-light');
-}
+
 .footer__text {
   display: block;
 
   margin-bottom: 20px;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: getColor('primary-light');
 }
 
 .join {
@@ -78,22 +60,10 @@
   min-width: 358px;
   padding: 15px 16px;
 
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: getColor('secondary-light');
-
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   background-color: getColor('bg-secondary');
   outline: none;
-
-  &::placeholder {
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: 0.03em;
-    color: getColor('secondary-light');
-  }
 }
 .sub-button {
   margin-left: 12px;

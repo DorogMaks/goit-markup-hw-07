@@ -17,21 +17,9 @@
 }
 .card-member__name {
   margin-bottom: 10px;
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
 }
 .card-member__position {
   margin-bottom: 16px;
-
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: getColor('secondary');
 }
 .card-member__list {
   display: flex;
