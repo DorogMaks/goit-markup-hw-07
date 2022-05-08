@@ -10,17 +10,14 @@ h6 {
 ul {
   padding-left: 0;
   margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 img {
   display: block;
 }
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;

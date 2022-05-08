@@ -28,6 +28,10 @@ h6 {
 ul {
   padding-left: 0;
   margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
 }
 img {
   display: block;
@@ -39,12 +43,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -91,7 +90,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: var(--time-function);
 }
-.soc-icon {
+.soc-networks__icon {
   width: 20px;
   height: 20px;
 }
@@ -114,7 +113,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.header__logo {
+.logo__dark {
   color: #000;
 }
 .navigation {
@@ -163,11 +162,11 @@ img {
   background-color: var(--accent-color);
   border-radius: 2px;
 }
-.header__list {
+.contacts {
   display: flex;
   margin-left: auto;
 }
-.header__link {
+.contacts__link {
   display: flex;
   align-items: center;
 
@@ -182,15 +181,15 @@ img {
   transition-duration: 250ms;
   transition-timing-function: var(--time-function);
 }
-.header__link:hover,
-.header__link:focus {
+.contacts__link:hover,
+.contacts__link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-.header__icon {
+.contacts__icon {
   margin-right: 10px;
 }
-.header__item:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -237,7 +236,7 @@ img {
 
 /*---------- features ----------*/
 
-.features__list {
+.features {
   display: flex;
 }
 .features__item {
@@ -279,10 +278,10 @@ img {
 
 /*---------- about ----------*/
 
-.about {
+.section--no-padding-top {
   padding-top: 0;
 }
-.about__list {
+.about {
   display: flex;
 }
 .about__item:not(:last-child) {
@@ -315,24 +314,24 @@ img {
 
 /*---------- team ----------*/
 
-.team {
+.section--other-bg {
   background-color: var(--bg-team-color);
 }
-.team__list {
+.team {
   display: flex;
   justify-content: space-between;
 }
-.card-member {
+.team__item {
   background-color: var(--bg-primary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.card-member__box {
+.team__box {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.card-member__name {
+.team__title {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -341,7 +340,7 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.card-member__position {
+.team__text {
   margin-bottom: 16px;
 
   font-size: 16px;
@@ -350,14 +349,14 @@ img {
   text-align: center;
   color: var(--secondary-text-color);
 }
-.card-member__list {
+.soc-networks {
   display: flex;
   justify-content: center;
 }
-.card-member__item + .card-member__item {
+.soc-networks__item + .soc-networks__item {
   margin-left: 10px;
 }
-.card-member__link {
+.soc-networks__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -373,15 +372,15 @@ img {
   transition-duration: 250ms;
   transition-timing-function: var(--time-function);
 }
-.card-member__link:hover,
-.card-member__link:focus {
+.soc-networks__link:hover,
+.soc-networks__link:focus {
   background-color: var(--accent-color);
   fill: #ffffff;
 }
 
 /*---------- clients ----------*/
 
-.clients__list {
+.clients {
   display: flex;
   justify-content: center;
 }
@@ -586,7 +585,7 @@ img {
 .form {
   padding: 40px;
 }
-.form__action {
+.form__title {
   display: block;
 
   margin-bottom: 12px;
@@ -721,6 +720,9 @@ img {
 }
 
 .agreement-conditions {
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
   color: var(--accent-color);
 }
 .submit-button {
@@ -740,7 +742,7 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer__logo {
+.logo__light {
   color: #fff;
 }
 .adress {
@@ -750,15 +752,13 @@ img {
 .address__item + .address__item {
   margin-top: 9px;
 }
-.address__link,
-.address__mail,
-.address__tel {
+.address__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footer-address-color);
 }
-.address__link {
+.address__link--light {
   color: #fff;
 }
 .footer__text {

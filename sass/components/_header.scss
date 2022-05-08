@@ -54,14 +54,14 @@
     border-radius: 2px;
   }
 }
-.header__list {
+.contacts {
   display: flex;
   margin-left: auto;
 }
-.header__item:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 30px;
 }
-.header__link {
+.contacts__link {
   display: flex;
   align-items: center;
 
@@ -77,6 +77,6 @@
     fill: getColor('accent');
   }
 }
-.header__icon {
+.contacts__icon {
   margin-right: 10px;
 }
