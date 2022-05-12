@@ -1,7 +1,3 @@
-body {
-  font-family: Roboto, sans-serif;
-  color: getColor('primary');
-}
 .logo {
   font-family: 'Raleway';
   font-weight: 700;
@@ -9,10 +5,10 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: getColor('accent');
-  &__dark {
+  &--dark {
     color: getColor('logo-header');
   }
-  &__light {
+  &--light {
     color: getColor('logo-footer');
   }
 }

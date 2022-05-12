@@ -21,7 +21,7 @@
     <header class="header">
       <div class="container header__container">
         <a href="./index.html" class="logo"
-          >Web<span class="logo__dark">Studio</span></a
+          >Web<span class="logo--dark">Studio</span></a
         >
         <nav class="navigation">
           <ul class="navigation__list">
@@ -524,24 +524,30 @@
           <b class="form__title">Оставьте свои данные, мы вам перезвоним</b>
           <div class="form__field">
             <label for="name" class="form__label">Имя</label>
-            <input type="text" name="name" id="name" class="form__input" />
-            <svg class="form__icon">
-              <use href="./images/icons.svg#icon-person"></use>
-            </svg>
+            <div class="form__input-wrap">
+              <input type="text" name="name" id="name" class="form__input" />
+              <svg class="form__icon">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
           <div class="form__field">
             <label for="tel" class="form__label">Телефон</label>
-            <input type="tel" name="tel" id="tel" class="form__input" />
-            <svg class="form__icon">
-              <use href="./images/icons.svg#icon-phone"></use>
-            </svg>
+            <div class="form__input-wrap">
+              <input type="tel" name="tel" id="tel" class="form__input" />
+              <svg class="form__icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
           <div class="form__field">
             <label for="mail" class="form__label">Почта</label>
-            <input type="email" name="mail" id="mail" class="form__input" />
-            <svg class="form__icon">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
+            <div class="form__input-wrap">
+              <input type="email" name="mail" id="mail" class="form__input" />
+              <svg class="form__icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
           <div class="form__field form__field--comment">
             <label for="comment" class="form__label">Комментарий</label>
@@ -580,7 +586,7 @@
       <div class="container footer__container">
         <div class="footer__box">
           <a href="./index.html" class="logo"
-            >Web<span class="logo__light">Studio</span></a
+            >Web<span class="logo--light">Studio</span></a
           >
           <address class="adress">
             <ul class="address__list">
