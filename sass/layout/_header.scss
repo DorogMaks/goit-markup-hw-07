@@ -6,7 +6,6 @@
   display: flex;
   align-items: center;
 }
-
 .navigation {
   margin-left: 93px;
 }
@@ -15,10 +14,6 @@
 }
 .navigation__item {
   position: relative;
-
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
 }
 .navigation__item + .navigation__item {
   margin-left: 50px;

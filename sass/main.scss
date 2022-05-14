@@ -1,8 +1,10 @@
 @import './utils/variables';
 @import './base/reset';
+@import './base/hidden';
 
 @import './components/text-decoration';
 @import './components/section';
+@import './components/container';
 @import './components/buttons';
 
 @import './layout/header';

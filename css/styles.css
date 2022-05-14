@@ -783,34 +783,11 @@ img {
 .join {
   margin-left: 70px;
 }
-.join__list {
-  display: flex;
-  justify-content: center;
-}
-.join__item + .join__item {
-  margin-left: 10px;
-}
-.join__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 44px;
-  height: 44px;
+.soc-networks__link--white {
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 
   fill: #ffffff;
-
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: var(--time-function);
 }
-.join__link:hover,
-.join__link:focus {
-  background-color: var(--accent-color);
-}
-
 .subscribe {
   margin-left: auto;
 }
